@@ -1,0 +1,35 @@
+</> gitignore
+
+# Flutter and Dart
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+build/
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# Android local configuration
+android/local.properties
+android/key.properties
+*.jks
+*.keystore
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Local database and generated data
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+
+# Operating system
+.DS_Store
+Thumbs.db
